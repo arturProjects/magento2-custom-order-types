@@ -1,0 +1,19 @@
+<!-- ko if: isDisplayOption() -->
+<div class="col-mp mp-12">
+    <fieldset class="fieldset">
+            <div class="step-title" data-role="title" data-bind="i18n: 'Custom order types'">Custom Order Types</div>
+            <div class="switch">
+                <input type="radio" name="order-type" value="standard" checked="checked" data-bind="attr: {id: 'order-type-standard'}"/>
+                <label data-bind="attr: {for: 'order-type-standard'}"><span data-bind="i18n: 'Standard'"></span></label>
+            </div>
+            <div class="switch">
+                <input type="radio" name="order-type" value="display" data-bind="attr: {id: 'order-type-display'}"/>
+                <label data-bind="attr: {for: 'order-type-display'}"><span data-bind="i18n: 'Display'"></span></label>
+            </div>
+            <div class="switch">
+                <input type="radio" name="order-type" value="test" data-bind="attr: {id: 'order-type-test'}"/>
+                <label data-bind="attr: {for: 'order-type-test'}"><span data-bind="i18n: 'Test'"></span></label>
+            </div>
+    </fieldset>
+</div>
+<!-- /ko -->

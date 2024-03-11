@@ -1,0 +1,26 @@
+{
+    "name": "ab/ordertypes",
+    "description": "custom order types",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "artur.borkowski",
+            "email": "artur.borkowski.fullstack@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7.4.0||~8.1.0",
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "AB\\OrderTypes\\": ""
+        }
+    }
+}
